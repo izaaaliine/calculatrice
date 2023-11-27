@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <div class="calculatrice">
+      <div class="ecran"></div>
+      <div class="touches">
+        <button onclick="ajouter ('7')" class="boutton">7</button>
+        <button onclick="ajouter ('8')" class="boutton">8</button>
+        <button onclick="ajouter ('9')" class="boutton">9</button>
+        <button onclick="ajouter ('*')" class="boutton">X</button>
+        <button onclick="ajouter ('4')" class="boutton">4</button>
+        <button onclick="ajouter ('5')" class="boutton">5</button>
+        <button onclick="ajouter ('6')" class="boutton">6</button>
+        <button onclick="ajouter ('-')" class="boutton">-</button>
+        <button onclick="ajouter ('1')" class="boutton">1</button>
+        <button onclick="ajouter ('2')" class="boutton">2</button>
+        <button onclick="ajouter ('3')" class="boutton">3</button>
+        <button onclick="ajouter ('+')" class="boutton">+</button>
+        <button onclick="ajouter ('0')" class="boutton">0</button>
+        <button onclick="ajouter ('.')" class="boutton">.</button>
+        <button onclick="ajouter ('/')" class="boutton">/</button>
+        <button onclick="calcul()" class="boutton">=</button>
+      </div>
+      <button onclick="effacer()" class="boutton" id="effacer">AC</button>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
